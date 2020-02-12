@@ -1,0 +1,5 @@
+{"records": [{
+    "jsonSchemaLocation": "/NotificationAPI/Service Descriptors/globe_messaging_api.Process-Notify.json",
+    "conversionType": "linked",
+    "xsdSchemaTargetNamespace": "http://www.example.com/namespaces/tns/1580816400443"
+}]}

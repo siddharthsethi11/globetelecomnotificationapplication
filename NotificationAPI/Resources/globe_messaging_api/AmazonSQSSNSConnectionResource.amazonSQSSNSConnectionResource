@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:sqsclient="http://ns.tibco.com/tci/sharedresource/sqsclient" xmi:id="_p-_T8EcREeqPkblJDpKW4A" name="globe_messaging_api.AmazonSQSSNSConnectionResource" type="sqsclient:SQSClientConfiguration">
+  <jndi:configuration xsi:type="sqsclient:SqsClient" xmi:id="_p_MIQEcREeqPkblJDpKW4A" AuthType="AWS Credentials" TokenExpirationDuration="60" useCrossAccountAccess="true" roleARN="arn:aws:iam::844226149276:role/TIBCO/Administrator" roleSessionName="Globesns">
+    <substitutionBindings xmi:id="_gl3zAEcSEeqPkblJDpKW4A" template="Region" propName="awsregion"/>
+    <substitutionBindings xmi:id="_oPJRgEcSEeqPkblJDpKW4A" template="KeyId" propName="keyid"/>
+    <substitutionBindings xmi:id="_ILAF4EfeEeqPkblJDpKW4A" template="KeySecret" propName="aws_secret"/>
+  </jndi:configuration>
+</jndi:namedResource>
